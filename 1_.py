@@ -1,4 +1,16 @@
-# Methods, Help & Documentation Practice #1
+#FUNCTION = a block of reusable code
+        # place () after the function name to invoke it
+
+print("Happy birthday to you!")
+print("You are old!")
+print("Happy birthday to you!")
+print()
+
+happy_birthday()
+happy_birthday()
+happy_birthday()
+
+ Methods, Help & Documentation Practice #1
 # Remove the characters to the left of our main text:
 
 # ,
@@ -17,6 +29,9 @@
 
 # Search the documentation for the requested method to learn how it works. You can use intermediate variables if you need them.
 
+
+def display_invoice(username, amount, due_data):
+        print
 
 # Methods, Help & Documentation Practice #2
 # Add the element "orange" as the fourth element of the following list fruits, using the insert() method:
