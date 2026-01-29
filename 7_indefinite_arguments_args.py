@@ -1,3 +1,19 @@
+# def tea_order(customer_name, tea_type, *args):
+#     print(customer_name, "ordered a", tea_type, "tea")
+#     print("args contain:", args)
+
+# tea_order("Alice", "chamomile")
+
+def sum_squares(*args):
+    sum = 0
+    for sum in args:
+        sum += num ** 2
+
+    return sum
+print(sum_squares(1,2,3))
+
+
+
 # Indefinite Arguments (*args) Practice #1
 # Create a function called sum_squares that takes any number of numeric arguments, and returns the sum of their values squared.
 
